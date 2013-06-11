@@ -1,0 +1,43 @@
+What is your name?
+What is your email?
+Where are you living?
+How long have you been gardening?
+How good of a gardener are you?
+
+How many plants do you have now?
+How many plants have you had in the past?
+How many plants do you have a year?
+How many vegetables plants did you have this last year?
+How many fruit  "?
+How many root  "?
+How many ornamental  "?
+How many trees?
+How many ferns?
+How many bushes?
+(maybe only that you care for)
+
+
+Do you move your any of your plants?
+How/why do you move them?
+How many of your plants are indoor vs outdoor?
+
+What would you like to track on your plant?
+
+
+
+How do you water your plant?
+x Choatically
+x Regularly
+
+What are your plants in? (select all that apply)
+x  Pots
+x  Ground
+x  Troughs
+
+Do you have an iPhone?
+
+What problems do your plants have?
+
+What plants do you have trouble with?
+
+What would you suggest for a plant app?
