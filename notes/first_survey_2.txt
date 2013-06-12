@@ -1,0 +1,58 @@
+who are you?
+
+what plant experience do you have?
+x 
+x I grow plants for food
+x I grow plants for 
+
+I am a?
+master gardener
+enthusiastic amature
+plant noob (novice) 
+I love plants but the don't survive in my possesssion
+I want to have plants but I don't have any
+plant whisperer
+
+what kind of plants do you own?
+x non fruit trees
+x fruit tree
+x vegetable/root plants
+x 
+x ornamental plants
+x 
+
+How do you decide to water your plant?
+x from research
+x advice from friend
+x according to weather
+x soil moisture
+
+What are your plants in? (select all that apply)
+x  Pots
+x  Ground
+x  Troughs
+x  Hydropnic
+x  Aquaponic
+x  Aeroponic
+x  Indoor
+x  Outdoor
+x  Greenhouse
+x  Community Garden
+
+What type of phone do you have?
+x iphone
+x andriod
+x other
+x non smart phone
+
+What would you like to track about your plants?
+
+
+What are the main problems your plants have?
+x water
+x pests/infection
+x nuitrient defieciency
+x sun exposure
+x wind
+x flooding
+x other
