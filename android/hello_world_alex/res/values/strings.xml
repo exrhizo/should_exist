@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">hello_world_alex</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello woarl!</string>
+    <string name="flash_string_off"> - </string>
+    <string name="flash_string_on">(0)</string>
+    <string name="edit_message">Enter a message</string>
+    <string name="button_send">Start</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_flash_it">Metronomical</string>
+
+</resources>
