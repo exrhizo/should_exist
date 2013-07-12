@@ -1,0 +1,90 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1138\cocoasubrtf510
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fswiss\fcharset0 ArialMT;\f2\fnil\fcharset0 Consolas;
+}
+{\colortbl;\red255\green255\blue255;\red238\green238\blue238;}
+\margl1440\margr1440\vieww11420\viewh14440\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
+
+\f0\fs24 \cf0 \
+Front screen:\
+\
+Tempo (detect/set): big font numbers, scroll/dial to change\
+Meter (tempo == set): pull down list of standard meters, also allow click and enter\
+Beat division (tempo == set) : pull down list of pictures and numeric fractions\
+Instrument\
+Draw tempo over time for tempo changes or text entry for times and tempos\
+\
+Play mode screen:\
+\
+choose user (and multiplayer option?)\
+\
+hide in background button\
+\
+if tempo == set\
+	Flashing indicator (changes color based on difference from beat subdivisions)\
+	Score (changes color based on difference)\
+	*high score for temp\
+	tempo \
+	After stopping\
+		show performance graph\
+\
+if tempo == freestyle\
+	Flashing indicator (changes color based on speeding up or slowing down)\
+	Digital tempo display	\
+	graph of tempo history\
+\
+Play with predefined beats:\
+\
+Choose beat\
+\
+Stats screen:\
+\
+List of users, high scores, tempos and subdivisions, \
+	click to see entire run\
+\
+\
+========\
+Necessary functions:\
+Calculations with streaming audio (break into chunks smaller than subdivision?)\
+Scroll to change numbers\
+import pictures for beat division \
+graphing\
+sounds playing/timing\
+\
+=========\
+Code\
+\
+record, save and playback audio\
+	http://developer.android.com/guide/topics/media/audio-capture.html\
+\
+	simpler version\
+	http://stackoverflow.com/questions/5696168/how-to-record-audio-file-in-android\
+	other \
+	http://stackoverflow.com/questions/5511250/capturing-sound-for-analysis-and-visualizing-frequencies-in-android\
+\
+Beat detection\
+http://archive.gamedev.net/archive/reference/programming/features/beatdetection/index.html\
+\
+Graphing\
+	use Chartview:\
+	http://stackoverflow.com/questions/424752/any-good-graphing-packages-for-android/1856369#1856369\
+	or this?\
+\pard\pardeftab720\sa260
+
+\f1 \cf0 	{\field{\*\fldinst{HYPERLINK "http://www.ankitsrivastava.net/2012/03/a-simple-2d-plot-class-for-android/"}}{\fldrslt http://www.ankitsrivastava.net/2012/03/a-simple-2d-plot-class-for-android/}}\
+Timer based tasks:\
+	http://android-developers.blogspot.com/2007/11/stitch-in-time.html\
+\
+Tables:\
+	http://stackoverflow.com/questions/2108456/how-can-i-create-a-table-with-borders-in-android\
+\pard\pardeftab720
+
+\f2 \cf0 \cb2 	<TableRow android:layout_height="1px" android:background="#BDBDBD">\
+   	<TextView android:layout_span="2" android:layout_height="1px" \
+  	           android:layout_width="fill_parent" android:text="">\
+   	</TextView>\
+	</TableRow>\
+\
+TESTING:\
+http://developer.android.com/tools/testing/testing_android.html\
+http://developer.android.com/tools/testing/testing_eclipse.html}
