@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Keep a beat</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="button_send">Graph that bitch</string>
+    <string name="title_activity_graphs">GraphsActivity</string>
+    <string name="title_activity_piechart">PieChart</string>
+    <string name="reset_button">Reset</string>
+</resources>
