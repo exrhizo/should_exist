@@ -4,8 +4,9 @@
     android:versionCode="1"
     android:versionName="1.0" >
 
-    <uses-permission android:name="android.permission.RECORD_AUDIO"></uses-permission>
-    
+    <uses-permission android:name="android.permission.RECORD_AUDIO" >
+    </uses-permission>
+
     <uses-sdk
         android:minSdkVersion="8"
         android:targetSdkVersion="15" />
@@ -27,6 +28,14 @@
         <activity
             android:name="com.example.hello_world_alex.FlashIt"
             android:label="@string/title_activity_flash_it"
+            android:parentActivityName="com.example.hello_world_alex.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.hello_world_alex.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.hello_world_alex.ThreadTester"
+            android:label="@string/title_activity_thread_tester"
             android:parentActivityName="com.example.hello_world_alex.MainActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"

@@ -14,6 +14,8 @@ import android.support.v4.app.NavUtils;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.EditText;
 import android.widget.TextView;
 
 public class FlashIt extends Activity {
@@ -84,6 +86,12 @@ public class FlashIt extends Activity {
 		}
 	};
 
+	public void startThread(View view){
+    	startActivity(new Intent(this, ThreadTester.class));
+		
+	}
+	
+	
 	private Runnable flashStop = new Runnable() {
 		public void run() {
 			flashView.setText(R.string.flash_string_off);
@@ -157,6 +165,7 @@ public class FlashIt extends Activity {
 	    mHandler.removeCallbacks(flashStart);
 	    mHandler.removeCallbacks(flashStop);
 	}
+	
 	
 	//ANDRIOD DEFAULT CODE
 	@Override

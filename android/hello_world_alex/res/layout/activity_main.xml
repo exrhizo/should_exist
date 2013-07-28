@@ -15,5 +15,11 @@
         android:layout_height="wrap_content"
         android:text="@string/button_send" 
         android:onClick="startFlasher"/>
+    
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="startThread"
+        android:text="@string/button_thread" />
 
 </LinearLayout>

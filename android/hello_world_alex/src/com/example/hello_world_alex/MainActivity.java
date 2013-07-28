@@ -24,6 +24,11 @@ public class MainActivity extends Activity {
         return true;
     }
     
+    public void startThread(View view){
+    	startActivity(new Intent(this, ThreadTester.class));
+		
+	}
+    
     /** Called when the user clicks the Send button */
     public void startFlasher(View view) {
     	Intent intent = new Intent(this, FlashIt.class);

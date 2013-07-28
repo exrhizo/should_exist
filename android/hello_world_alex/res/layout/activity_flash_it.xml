@@ -4,29 +4,34 @@
     android:layout_height="match_parent"
     android:orientation="vertical" >
 
+    <TextView
+        android:id="@+id/flash_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/flash_string_off" />
 
-        <TextView
-            android:id="@+id/flash_text"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/flash_string_off" />
+    <TextView
+        android:id="@+id/audio_feedback"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/un_init" />
 
-        <TextView
-            android:id="@+id/audio_feedback"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/un_init" />
+    <TextView
+        android:id="@+id/start_time"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/un_init" />
 
-        <TextView
-            android:id="@+id/start_time"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/un_init" />
+    <TextView
+        android:id="@+id/end_time"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/un_init" />
 
-        <TextView
-            android:id="@+id/end_time"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/un_init" />
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="startThread"
+        android:text="@string/button_thread" />
 
 </LinearLayout>
